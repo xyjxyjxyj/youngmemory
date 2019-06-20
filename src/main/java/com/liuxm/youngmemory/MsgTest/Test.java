@@ -5,7 +5,6 @@ import java.io.UnsupportedEncodingException;
 public class Test {
 
     /**
-     * @author Zhenwei.Zhang (2013-11-12)
      * @param args
      * @throws Exception 
      * @throws UnsupportedEncodingException 

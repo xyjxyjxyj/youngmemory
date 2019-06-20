@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 消息片，由多个消息域按一定的顺序组成
- * @author Zhenwei.Zhang (2013-9-25)
  */
 public abstract class MsgPiece {
     
@@ -24,7 +23,6 @@ public abstract class MsgPiece {
     
     /**
      * 组消息
-     * @author Zhenwei.Zhang (2013-9-25)
      * @param charsetName
      * @return
      * @throws Exception
@@ -50,7 +48,6 @@ public abstract class MsgPiece {
     
     /**
      * 解消息
-     * @author Zhenwei.Zhang (2013-9-25)
      * @param msg
      * @param charsetName
      * @throws Exception
@@ -96,7 +93,6 @@ public abstract class MsgPiece {
     
     /**
      * 获得消息片长
-     * @author Zhenwei.Zhang (2013-9-25)
      * @return
      */
     public int getLength() {
@@ -109,7 +105,6 @@ public abstract class MsgPiece {
     
     /**
      * 格式化真实值为指定长度字符串，超长自动截取
-     * @author Zhenwei.Zhang (2013-9-26)
      * @param value
      * @param fillChar 填充字符
      * @param side 填充位置
@@ -147,7 +142,6 @@ public abstract class MsgPiece {
     
     /**
      * 获得消息域的真实值
-     * @author Zhenwei.Zhang (2013-9-26)
      * @param value
      * @param side 填充位置
      * @param fillChar 填充字符

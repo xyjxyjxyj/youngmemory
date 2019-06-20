@@ -2,7 +2,6 @@ package com.liuxm.youngmemory.MsgTest;
 
 /**
  * 消息域
- * @author Zhenwei.Zhang (2013-9-25)
  */
 public class MsgField {
     
@@ -15,7 +14,6 @@ public class MsgField {
     
     /**
      * 填充位置
-     * @author Zhenwei.Zhang (2013-9-25)
      */
     public enum FillSide {
         LEFT, RIGHT

@@ -5,7 +5,6 @@ import java.lang.reflect.Method;
 
 /**
  * 消息包，由多个消息片组成
- * @author Zhenwei.Zhang (2013-10-12)
  */
 public abstract class MsgPackage {
     
@@ -18,7 +17,6 @@ public abstract class MsgPackage {
     
     /**
      * 组包
-     * @author Zhenwei.Zhang (2013-9-26)
      * @param charsetName
      * @return
      * @throws Exception
@@ -42,7 +40,6 @@ public abstract class MsgPackage {
     
     /**
      * 解包
-     * @author Zhenwei.Zhang (2013-9-26)
      * @param msg
      * @param charsetName
      * @throws Exception
@@ -67,7 +64,6 @@ public abstract class MsgPackage {
     
     /**
      * 获得消息包长度
-     * @author Zhenwei.Zhang (2013-9-26)
      * @return
      * @throws Exception
      */
