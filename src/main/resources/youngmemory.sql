@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : MyCon
 Source Server Version : 50717
 Source Host           : localhost:3306
-Source Database       : vhr
+Source Database       : youngmemory
 
 Target Server Type    : MYSQL
 Target Server Version : 50717
@@ -12,9 +12,9 @@ File Encoding         : 65001
 
 Date: 2018-02-05 11:25:15
 */
-CREATE DATABASE `vhr` DEFAULT CHARACTER SET utf8;
+CREATE DATABASE `youngmemory` DEFAULT CHARACTER SET utf8;
 
-USE `vhr`;
+USE `youngmemory`;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
