@@ -10,12 +10,14 @@ import com.liuxm.youngmemory.service.EmpService;
 import com.liuxm.youngmemory.service.JobLevelService;
 import com.liuxm.youngmemory.service.PositionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.thymeleaf.TemplateEngine;
 
+import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -39,8 +41,8 @@ public class EmpBasicController {
     ExecutorService executorService;
     @Autowired
     TemplateEngine templateEngine;
-    @Autowired
-    JavaMailSender javaMailSender;
+   /* @Autowired
+    JavaMailSender javaMailSender;*/
 
     @RequestMapping(value = "/basicdata", method = RequestMethod.GET)
     public Map<String, Object> getAllNations() {
@@ -68,8 +70,8 @@ public class EmpBasicController {
                     employee.setPosName(allPo.getName());
                 }
             }
-            executorService.execute(new EmailRunnable(employee,
-                    javaMailSender, templateEngine));
+            /*executorService.execute(new EmailRunnable(employee,
+                    javaMailSender, templateEngine));*/
             return RespBean.ok("添加成功!");
         }
         return RespBean.error("添加失败!");
