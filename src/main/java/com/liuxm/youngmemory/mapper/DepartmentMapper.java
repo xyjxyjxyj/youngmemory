@@ -7,7 +7,6 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by sang on 2018/1/7.
  */
 @Mapper
 public interface DepartmentMapper {

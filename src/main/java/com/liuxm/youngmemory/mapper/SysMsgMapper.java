@@ -9,7 +9,6 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by sang on 2018/2/2.
  */
 public interface SysMsgMapper {
 

@@ -10,7 +10,6 @@ import org.thymeleaf.context.Context;
 import javax.mail.internet.MimeMessage;
 
 /**
- * Created by sang on 2017/9/20.
  */
 public class EmailRunnable implements Runnable {
     private Employee employee;

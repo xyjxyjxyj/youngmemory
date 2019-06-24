@@ -11,7 +11,6 @@ import java.security.Principal;
 
 /**
  * WebSocket 消息处理类
- * Created by sang on 2018/1/27.
  */
 @Controller
 public class WsController {

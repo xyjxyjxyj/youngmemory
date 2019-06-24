@@ -3,7 +3,6 @@ package com.liuxm.youngmemory.bean;
 import java.sql.Timestamp;
 
 /**
- * Created by sang on 2018/1/11.
  */
 public class JobLevel {
     private Long id;

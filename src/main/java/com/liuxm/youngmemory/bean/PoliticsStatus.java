@@ -1,7 +1,6 @@
 package com.liuxm.youngmemory.bean;
 
 /**
- * Created by sang on 2018/1/13.
  */
 public class PoliticsStatus {
     private Long id;

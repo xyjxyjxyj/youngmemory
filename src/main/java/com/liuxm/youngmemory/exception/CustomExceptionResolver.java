@@ -1,6 +1,5 @@
 package com.liuxm.youngmemory.exception;
 
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
@@ -12,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by sang on 2018/1/2.
  */
 @Component
 public class CustomExceptionResolver implements HandlerExceptionResolver {

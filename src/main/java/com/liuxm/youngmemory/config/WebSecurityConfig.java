@@ -29,7 +29,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by sang on 2017/12/28.
  */
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)

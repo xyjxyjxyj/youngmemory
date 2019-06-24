@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by sang on 2017/12/29.
  */
 @RestController
 @RequestMapping("/system/basic")

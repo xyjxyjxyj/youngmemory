@@ -6,7 +6,6 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by sang on 2018/1/24.
  */
 public interface SalaryMapper {
     int addSalary(@Param("salary") Salary salary);
