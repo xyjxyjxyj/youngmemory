@@ -8,19 +8,24 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
+@Service
+@Transactional
 @Component
 @Configuration
 @EnableScheduling
 public class GetTableDataService {
     private static final Logger logger = LoggerFactory.getLogger(GetTableDataService.class);
 
-    @Autowired
+    @Resource
     private GetTableDataMapper getTableDataMapper;
 
-    //@Scheduled(cron = "*/1 * * * * ?")
+    @Scheduled(cron = "*/1 * * * * ?")
     public void execute() throws Exception{
         List resultList = getTableDataMapper.getTableData();
         System.out.println("123");
