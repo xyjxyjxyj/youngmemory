@@ -25,7 +25,7 @@ public class GetTableDataService {
     @Resource
     private GetTableDataMapper getTableDataMapper;
 
-    @Scheduled(cron = "*/1 * * * * ?")
+   // @Scheduled(cron = "*/1 * * * * ?")
     public void execute() throws Exception{
         List resultList = getTableDataMapper.getTableData();
         System.out.println("123");
